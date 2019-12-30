@@ -70,7 +70,113 @@
 
 ##### [Spark的运行架构](docs/Spark/Spark的运行架构.md)
 
-## 面试指南
+##### [Spark程序的执行流程](docs/Spark/Spark程序的执行流程.md)
+
+##### [Spark的shuffle介绍](docs/Spark/Spark的shuffle介绍.md)
+
+##### [Spark的 partitioner 都有哪些](docs/Spark/Spark的 partitioner 都有哪些.md)
+
+##### [Spark有哪几种join](docs/Spark/Spark有哪几种join.md)
+
+##### [RDD有哪些特点](docs/Spark/RDD有哪些特点.md)
+
+##### [宽依赖和窄依赖](docs/Spark/宽依赖和窄依赖.md)
+
+##### [Spark中的算子都有哪些](docs/Spark/Spark中的算子都有哪些.md)
+
+##### [RDD的缓存级别都有哪些](docs/Spark/RDD的缓存级别都有哪些.md)
+
+##### [RDD懒加载是什么意思](docs/Spark/RDD懒加载是什么意思.md)
+
+##### [Spark的几种部署方式](docs/Spark/Spark的几种部署方式.md)
+
+##### [SparkOnYarn模式下的Cluster模式和Client模式区别](docs/Spark/SparkOnYarn模式下的Cluster模式和Client模式区别.md)
+
+##### [Spark运行原理,从提交一个jar到最后返回结果,整个过程](docs/Spark/Spark运行原理,从提交一个jar到最后返回结果,整个过程.md)
+
+##### [Spark的stage是如何划分的](docs/Spark/Spark的stage是如何划分的.md)
+
+##### [Spark2.0为什么放弃了akka而用netty](docs/Spark/Spark2.0为什么放弃了akka而用netty.md)
+
+##### [Spark的各种HA,master、worker、executor的HA](docs/Spark/Spark的各种HA,master、worker、executor的HA.md)
+
+##### [Spark的内存管理机制](docs/Spark/Spark的内存管理机制.md)
+
+##### [Spark中的广播变量](docs/Spark/Spark中的广播变量.md)
+
+##### [什么是数据倾斜,怎样去处理数据倾斜](docs/Spark/什么是数据倾斜,怎样去处理数据倾斜.md)
+
+##### [Spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行](docs/Spark/Spark代码中哪些部分在Driver端执行,哪些部分在Worker端执行.md)
+
+## [Flink](docs/Flink)
+
+##### [Flink的运行架构](docs/Flink/Flink的运行架构.md)
+
+##### [Flink的作业执行流程](docs/Flink/Flink的作业执行流程.md)
+
+##### [Flink具体是如何实现exactly-once语义](docs/Flink/Flink具体是如何实现exactly-once语义.md)
+
+##### [Flink的window实现机制](docs/Flink/Flink的window实现机制.md)
+
+##### [Flink的window分类](docs/Flink/Flink的window分类.md)
+
+##### [Flink的state是存储在哪里的](docs/Flink/Flink的state是存储在哪里的.md)
+
+##### [Flink是如何实现反压的](docs/Flink/Flink是如何实现反压的.md)
+
+##### [Flink的部署模式都有哪些](docs/Flink/Flink的部署模式都有哪些.md)
+
+##### [Flink-on-yarn的部署](docs/Flink/Flink-on-yarn的部署.md)
+
+##### [Flink中的时间概念，eventTime和processTime的区别](docs/Flink/Flink中的时间概念，eventTime和processTime的区别.md)
+
+##### [Flink中的sessionWindow怎样使用](docs/Flink/Flink中的sessionWindow怎样使用.md)
+
+## [Kafka](docs/Kafka)
+
+##### [Kafka的架构](docs/Kafka/Kafka的架构.md)
+
+##### [Kafka与其他消息组件对比](docs/Kafka/Kafka与其他消息组件对比.md)
+
+##### [Kafka实现高吞吐的原理](docs/Kafka/Kafka实现高吞吐的原理.md)
+
+##### [Kafka怎样保证不重复消费](docs/Kafka/Kafka怎样保证不重复消费.md)
+
+##### [Kafka怎样保证不丢失消息](docs/Kafka/Kafka怎样保证不丢失消息.md)
+
+##### [Kafka与sparkStreaming集成,如何保证exactly-once语义](docs/Kafka/Kafka与sparkStreaming集成,如何保证exactly-once语义.md)
+
+##### [Ack有哪几种,生产中怎样选择](docs/Kafka/Ack有哪几种,生产中怎样选择.md)
+
+##### [如何通过offset寻找数据](docs/Kafka/如何通过offset寻找数据.md)
+
+##### [如何清理过期数据](docs/Kafka/如何清理过期数据.md)
+
+##### [1条message中包含哪些信息](docs/Kafka/1条message中包含哪些信息.md)
+
+##### [Zookeeper在Kafka中的作用](docs/Kafka/Zookeeper在Kafka中的作用.md)
+
+##### [Kafka可以脱离zookeeper单独使用吗](docs/Kafka/Kafka可以脱离zookeeper单独使用吗.md)
+
+##### [Kafka有几种数据保留策略](docs/Kafka/Kafka有几种数据保留策略.md)
+
+##### [Kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?](docs/Kafka/Kafka同时设置了7天和10G清除数据,到第5天的时候消息到达了10G,这个时候kafka如何处理?.md)
+
+## [Zookeeper](docs/Zookeeper)
+
+##### [Zookeeper是什么,有什么功能](docs/Zookeeper/Zookeeper是什么,有什么功能.md)
+
+##### [ZK的几种部署模式](docs/Zookeeper/ZK的几种部署模式.md)
+
+##### [ZK是怎样保证主从节点的状态同步](docs/Zookeeper/ZK是怎样保证主从节点的状态同步.md)
+
+##### [ZK的通知机制](docs/Zookeeper/ZK的通知机制.md)
+
+##### [ZK的分布式锁实现方式](docs/Zookeeper/ZK的分布式锁实现方式.md)
+
+##### [ZK采用的哪种分布式一致性协议?还有哪些分布式一致性协议](docs/Zookeeper/ZK采用的哪种分布式一致性协议?还有哪些分布式一致性协议.md)
+
+##### [leader选举过程](docs/Zookeeper/leader选举过程.md)
 
 ### 备战面试
 
