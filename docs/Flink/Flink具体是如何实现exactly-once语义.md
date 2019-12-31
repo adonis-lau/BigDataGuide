@@ -1,4 +1,4 @@
-## flink具体是如何实现exactly-once语义
+## Flink具体是如何实现exactly-once语义
 
 在谈到 flink 所实现的 exactly-once语义时,主要是2个层面上的,首先 flink在0.9版本以后已经实现了基于state的内部一致性语义, 在1.4版本以后也可以实现端到端 Exactly-Once语义
 
