@@ -1,0 +1,6 @@
+## Hbase的HA实现,Zookeeper在其中的作用
+
+HBase中可以启动多个HMaster，通过Zookeeper的Master Election机制保证总有一个Master运行。
+配置HBase高可用，只需要启动两个HMaster，让Zookeeper自己去选择一个Master Acitve即可
+
+ZK的在这里起到的作用就是用来管理master节点,以及帮助hbase做master选举
