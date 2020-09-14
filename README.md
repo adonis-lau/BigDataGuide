@@ -182,6 +182,10 @@
 
 * ##### [面试题](docs/Interview/面试题.md)
 
+* ##### [2019大数据面试题](https://blog.csdn.net/qq_44868502/article/details/103202702)
+
+* ##### [BigDataGuide](https://github.com/Dr11ft/BigDataGuide)
+
 ## 工具
 
 ### Git
